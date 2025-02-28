@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #ff69b4, #ffa07a); /* Pink to light orange gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 80%;
+    height: 2px;
+    background-color: #333;
+    margin: 10px auto;
+}
+
+.form-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.record-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+record-button img {
+  width: 100px;
+  height: 100px;
+}
+
+.save-button {
+    background-color: #e74c3c; /* Red color for the button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+    background-color: #c0392b;
+}
+
+.save-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
