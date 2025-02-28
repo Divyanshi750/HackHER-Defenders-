@@ -9,3 +9,11 @@ document.querySelector('.save-button').addEventListener('click', function() {
 
     // Add logic to save these contacts to your backend
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const saveButton = document.getElementById("saveButton");
+
+    saveButton.addEventListener("click", function () {
+        window.location.href = "audio.html";
+    });
+});

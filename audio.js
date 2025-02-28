@@ -35,3 +35,11 @@ document.getElementById('recordButton').addEventListener('click', async () => {
         console.error('Error recording audio:', error);
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const saveButton = document.getElementById("saveButton");
+
+    saveButton.addEventListener("click", function () {
+        window.location.href = "sos.html";
+    });
+});
